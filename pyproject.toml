@@ -1,0 +1,25 @@
+[project]
+name = "deep-research-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hammad", email = "devhammad.m@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "duckduckgo-search>=8.0.2",
+    "openai-agents>=0.0.16",
+    "pydantic>=2.11.5",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "rich>=14.0.0",
+]
+
+[project.scripts]
+deep-research-agent = "deep_research_agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
