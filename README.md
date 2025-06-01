@@ -124,7 +124,7 @@ The central orchestrator that:
 
 Run the agent from the terminal:
 ```bash
-uv run src/deep_research_agent/main.pu
+uv run src/deep_research_agent/main.py
 ```
 
 ## Rich Integration
