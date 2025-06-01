@@ -41,7 +41,7 @@ Copy `.env.example` to `.env` and fill in your values:
 
 ### Project Structure
 
-```
+```python
 DEEP_RESEARCH_AGENT/
 ├── src/
 │   └── deep_research_agent/
