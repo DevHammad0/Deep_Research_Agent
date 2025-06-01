@@ -127,11 +127,6 @@ Run the agent from the terminal:
 uv run src/deep_research_agent/main.pu
 ```
 
-Example interaction:
-```bash
-> Welcome to the Deep Research Agent!
-> What would you like to research? Impact of quantum computing on cryptography
-
 ## Rich Integration
 
 The project leverages Rich for enhanced terminal output:
