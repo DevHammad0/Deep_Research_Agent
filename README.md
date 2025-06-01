@@ -24,7 +24,7 @@ The Deep Research Agent is an advanced AI-powered research tool that:
 1. Clone the repository:
 ```bash
 git clone https://github.com/DevHammad0/Deep_Research_Agent.git
-cd deep-research-agent
+cd deep_research_agent
 ```
 
 2. Install dependencies using UV:
