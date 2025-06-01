@@ -34,7 +34,6 @@ uv pip install -r requirements.txt
 
 3. Set up your Gemini API key:
 ```bash
-# On Windows (PowerShell):
 Copy `.env.example` to `.env` and fill in your values:  
 - `GEMINI_API_KEY`: Your Google Gemini API key
 
