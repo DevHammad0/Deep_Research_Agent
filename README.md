@@ -124,30 +124,13 @@ The central orchestrator that:
 
 Run the agent from the terminal:
 ```bash
-python -m src.deep_research_agent.main
+uv run src/deep_research_agent/main.pu
 ```
 
 Example interaction:
-```
+```bash
 > Welcome to the Deep Research Agent!
 > What would you like to research? Impact of quantum computing on cryptography
-
-[Query Analysis]
-Generated Search Queries:
-1. Current state quantum computing cryptography impact
-2. Post-quantum cryptography methods developments
-3. Quantum computing threats traditional encryption
-
-[Searching...]
-✓ Found 3 sources across 3 queries
-
-[Analyzing findings...]
-✓ Research complete!
-
-[Final Report]
-# Impact of Quantum Computing on Cryptography
-...
-```
 
 ## Rich Integration
 
@@ -169,20 +152,6 @@ The project leverages Rich for enhanced terminal output:
    - Error messages with appropriate styling
    - Clear visual hierarchy of information
 
-## Project Structure
-
-```
-src/deep_research_agent/
-├── main.py                 # Entry point and CLI interface
-├── coordinator.py          # Research workflow orchestrator
-├── models.py              # Data models and types
-├── research_agents/       # Specialized agent implementations
-│   ├── query_agents.py    # Query analysis and generation
-│   ├── search_agent.py    # Web content analysis
-│   ├── follow_up_agent.py # Research completion decisions
-│   └── synthesis_agent.py # Report generation
-└── model_setup.py        # OpenAI model configurations
-```
 
 ## Implementation Insights
 
